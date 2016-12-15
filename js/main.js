@@ -21,4 +21,7 @@ $.ajax({
 });
 $("#top").tap(function(){
 	$(window).scrollTop("0px");
+});
+$("#login").tap(function(){
+	location.href="../html/login.html";
 })
