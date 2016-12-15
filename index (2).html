@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title></title>
+		<link rel="stylesheet" href="css/zouxiu.css" />
+		<link rel="stylesheet" type="text/css" href="font_n0cbqg36e77ousor/iconfont.css" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/zouxiu.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>
+				<span class="icon iconfont icon-zuojianhao jiantou"></span>
+				<ul class="top">
+					<li class="product one">商品</li>
+					<li class="xiangqing">详情</li>
+				</ul>
+				<span class="cart"></span>
+			</h1>
+
+			<span class="dian_mean">...</span>
+		</header>
+		<section class="section_body">
+			<div class="swiper-container goods_show">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide"><img src="img/g1_402_536.jpg" /></li>
+					<li class="swiper-slide"><img src="img/g2_402_536.jpg" /></li>
+					<li class="swiper-slide"><img src="img/g3_402_536.jpg" /></li>
+					<li class="swiper-slide"><img src="img/g4_402_536.jpg" /></li>
+					<li class="swiper-slide"><img src="img/g5_402_536.jpg" /></li>
+				</ul>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="goods_info">
+				<div class="goods_box" style="background: #fff;">
+					<h1 class="good_brand">Karl Lagerfeld</h1>
+					<h1 class="good_name">女士刺绣长袖卫衣</h1>
+					<div class="sales">
+						[限时9折]
+					</div>
+					<div class="price">￥1560</div>
+					<div class="address">
+						发送地：香港 配送时间：预计4-7天送达 <span>></span>
+					</div>
+					<div class="shuifei">税费：由海外买家承担<span>详细说明 ></span></div>
+					<div class="tips">温馨提示</div>
+				</div>
+				<div class="style">
+					<div class="style_bar">
+						<div class="color">
+							<span>
+							颜色：
+						</span>
+							<span class="color_bar">黑色</span>
+							<span class="color_bar">蓝色</span>
+							<span class="color_bar">红色</span>
+
+						</div>
+						<div class="size">
+							<span>
+							尺寸：
+						</span>
+							<span class="size_bar">XL</span>
+							<span class="size_bar">L</span>
+							<span class="size_bar">M</span>
+
+						</div>
+					</div>
+				</div>
+				<div class="mes">
+					<div class="mes_bar">
+						<span>基本信息</span>
+					</div>
+				</div>
+				<div class="pro">
+					<div class="pro_bar">
+						<span>商品评论</span>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="bottom_bar">
+						<div class="logo"><img src="img/logo.jpg" alt="" /></div>
+					</div>
+					<div class="bottom_bar_right">
+						<div class="bottom_top">
+							<span class="name">Karl Lagerfeld</span>
+							<span class="name_go">></span>
+						</div>
+						<div class="bottom_bottom">
+							<span class="name">商品:247</span>
+							<span class="name_con">秀:14</span>
+							<span class="name_go">评论:0</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section_body1" style="display: none;">
+			<div class="twopage">
+				<img src="img/img1.jpg" />
+			</div>
+			<div class="show">
+				<ul>
+					<li class="g1"><img src="img/g1_402_536.jpg" /></li>
+					<li class="g2"><img src="img/g2_402_536.jpg" /></li>
+					<li class="g3"><img src="img/g3_402_536.jpg" /></li>
+					<li class="g4"><img src="img/g4_402_536.jpg" /></li>
+					<li class="g5"><img src="img/g5_402_536.jpg" /></li>
+				</ul>
+			</div>
+			<div class="footer1">
+				<img src="img/img2.jpg" alt="" />
+			</div>
+		</section>
+		<!--<span class="icon iconfont icon-yuanjiaojiantouxiangshang back_top"></span>	-->
+		<footer>
+			<span class="person"><a href="">客服</a></span>
+			<span class="focus"><a href="">关注</a></span>
+			<a href="" class="cart_btn">加入购物车</a>
+			<a href="" class="buy">立即购买</a>
+		</footer>
+		<script type="text/javascript">
+			var currWidth = document.documentElement.clientWidth || document.body.clientWidth;
+			document.getElementsByTagName('html')[0].style.fontSize = currWidth / 6.4 + "px";
+			$.ajax({
+
+			});
+
+			var mySwiper = new Swiper(".swiper-container", {
+				slidesPerView: 1,
+				spaceBetween: 20,
+				//			paginationClickable:true,
+				direction: 'horizontal',
+				//			mousewheelControl : true,
+				effect: 'coverflow',
+				pagination: '.swiper-pagination',
+				onTouchEnd: function(argument) {
+
+				}
+			})
+		</script>
+	</body>
+
+</html>
