@@ -1,0 +1,18 @@
+html{font-size: 15.625vw}
+a{text-decoration: none;font-size:0.3rem;display: block;width:3.6rem;height: 0.62rem;border-radius: 1rem;position: absolute;left: 50%;margin-left: -1.8rem;text-align: center;line-height: 0.62rem}
+body{margin: 0;padding: 0}
+.container{width: 100vw;height:100vh;background: url("http://m.xiu.com/static/css/img/start/bg1.jpg") no-repeat -30px top;background-size: cover;position: relative;}
+#outer{width:4.6rem;height:7.8rem;border-radius: 0.2rem;overflow: hidden;box-shadow: 1px 1px 8px rgba(0,0,0,.2);position: absolute;top: 50%;margin-top: -3.9rem;left: 50%;margin-left: -2.3rem;z-index:5}
+.box{width: 100%;height: 100%;background: url("http://m.xiu.com/static/css/img/start/outer.jpg") no-repeat;background-size: cover;position: relative;}
+.box .tap{height:1rem;width: 1rem;position: absolute;bottom: 1.5rem;left: 0.34rem;animation:Tap 1.3s linear infinite;opacity: 1;}
+@-webkit-keyframes Tap{
+	to{
+		transform: translateX(0.6rem);
+		opacity: 0.2;
+	}
+}
+.box .tap img{width: 100%;}
+#inner{width:4.6rem;height:7.8rem;overflow: hidden;position: absolute;top: 50%;margin-top: -3.9rem;left: 50%;margin-left: -2.3rem;z-index: 1;background: url("http://m.xiu.com/static/css/img/start/bg2.jpg") no-repeat -0.35rem top;background-size: cover;display: none;}
+.download{top: 4.8rem;background: #e62f47;border: 1px solid  #e62f47;color: #fff;}
+.btn{top: 5.65rem;color: #e62f47;border:1px solid #e62f47;}
+p{font-size: 0.1rem;margin: 0;text-align: center;line-height: 0.4rem;position: absolute;width: 3.6rem;position: absolute;left: 50%;margin-left: -1.8rem;top: 6.7rem;color: #a1a1a1;text-decoration: underline;}

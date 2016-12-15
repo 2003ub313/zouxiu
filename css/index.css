@@ -1,0 +1,30 @@
+/* ---------------------------------------------广告logo--------------------------------------------------------- */
+#app-logo{width:calc(100vw - 36px);height: 48px;padding-left: 13px;padding-right: 23px;display: flex;align-items: center;position: relative;}
+#app-logo img{width: 38px;height: 38px;position: relative;float: left;}
+.close{top:0;right:0;position: absolute;height: 23px;width: 23px;background: #ccc;border-bottom-left-radius:20px;display: flex;align-items: center;justify-content: center;}
+.close span{width: 13px;height: 3px;background: #fff;display: block;transform:rotateZ(55deg);}
+.close span:before{content:"";width: 13px;height: 3px;background: #fff;display: block;transform:rotateZ(-110deg);}
+#app-logo p{float:left;font-size: 12px;color: #d2041f;height: 48px;line-height: 48px;margin: 0;font-weight: bold;margin-left: 7px}
+.go{font-size: 14px;text-align: center;padding: 5px 3px;background: #d2041f;color: #fff;border-radius: 5px;text-decoration: none;display: block;position: absolute;right: 25px}
+/* ---------------------------------------------头部--------------------------------------------------------- */
+header{background: #f6f6f8;padding-left: 13px;width: calc(100vw - 13px);height: 48px;display: flex;align-items: center;justify-content: space-between;}
+.logo{background: url("http://m.xiu.com/static/css/img/logo_new.png") no-repeat;width: 42px;height: 32px;display: inline-block;background-size: 42px}
+.search{height: 30px;width: calc(100vw - 143px);border: 1px solid #d8d8d8;background: #fff;border-radius: 5px;display: flex;align-items: center;margin-left: 5px}
+.search input{border: 0;outline: none;width: 127px;height: 18px;font-size: 14px;margin-left: 2px;line-height: 18px}
+.search span{width: 20px;height: 18px;display: block;display: inline-block;font-size: 20px;color: #a5a5a5;margin-left: 6px;line-height: 18px}
+header span:nth-of-type(2){width: 40px;height: 45px;display:block;font-size: 20px;line-height: 45px;text-indent: 15px;color:#a5a5a5 }
+header span:nth-of-type(3){width: 40px;height: 45px;display:block;font-size: 25px;line-height: 45px;text-align: center;color:#a5a5a5}
+/* ---------------------------------------------商品列表--------------------------------------------------------- */
+ul li{list-style: none;}
+#commodity ul{padding: 0;margin: 0}
+#commodity ul li{width: 100vw;margin-bottom: 2px}
+#commodity ul li a{display: block;}
+#commodity ul li a img{display:block;width: 100%}
+/* ---------------------------------------------footer--------------------------------------------------------- */
+footer{width: calc(100vw - 20px);height: 55px;background: #f0f0f0;border-top: 2px solid #dadada;padding: 10px 10px 0;display: flex;align-items: center;flex-flow: column nowrap;}
+footer .p1{margin: 0;font-size: 13px;color: #464646;margin-top: 15px}
+footer .p2{margin: 0;font-size: 12px;color:#464646;display: flex;justify-content: center;padding-top: 8px}
+footer em{font-style: normal;color: #99aecf}
+footer .p2 span{font-size: 15px;}
+/* ---------------------------------------------top--------------------------------------------------------- */
+#top{height: 2.5rem;width: 2.6rem;position: fixed;bottom: 0.4rem;right:0.3rem;background: rgba(0,0,0,0.4);line-height: 2.5rem;text-align: center;font-size:2rem;color: #fff }
