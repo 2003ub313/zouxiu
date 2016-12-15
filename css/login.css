@@ -1,0 +1,90 @@
+
+/*表单主体部分 李光宇 2016/12/12*/
+section.the-form{
+	padding: 15px 10px 0 10px;
+	height: 438px;
+	background-color: #fff;
+
+}
+section.the-form header{
+	width: 75%;
+	margin: 0 auto;
+}
+section.the-form div{
+	margin: 0 auto;
+}
+section.the-form input{
+	height: 43px; border-bottom: 1px solid #E3E3E3;
+	font-size: 12px;
+	width: 100%;
+}
+section.the-form div.forget{
+	height: 19px;
+	padding: 21px 0 10px 0;
+	text-align: right;	
+}
+section.the-form div.forget a,section.the-form div.another-way a{
+	color: #507daf;
+	font-size: 14px;
+}
+section.the-form div.the-login button,section.the-form div.the-login a{
+	width: 100%;
+	border: 1px solid #d2041f;
+	background: #d2041f;
+	height: 40px;
+	-webkit-border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+}
+section.the-form div.the-error{
+	height: 40px;
+	text-align: center;
+}
+section.the-form div.the-login a{
+	font-size: 17px;
+}
+section.the-form div.the-login button.login-btn{
+	margin-bottom: 15px;
+}
+section.the-form div.another-way{
+	height: 19px;
+	margin: 29px;
+	display: flex;
+	justify-content: center;
+}
+
+p.parties-login{
+	height: 16px; margin: 100px 0 15px 0;
+	background: url(../imgs/login/login_line.png) center center no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+	font-size: 12px;
+	color: #929292;
+}
+
+
+section.the-parties ul{
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+section.the-parties ul li{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
+section.the-parties ul a{
+	display: block;
+	width: 57px; 
+	height: 57px;
+	background: url(../imgs/login/login-ico.png);
+	background-size: 460% auto;
+}
+section.the-parties ul a.the-zhi{
+	background: url(../imgs/login/login-ico.png) -60% 0;
+	background-size: 460% auto;
+}
